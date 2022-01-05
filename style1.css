@@ -1,0 +1,439 @@
+/* POLICE */
+html,body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .bigBold {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .midBold {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .regular {
+    font-weight: normal;
+  }
+  
+  /* FLEX */
+  .flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flexSpaceAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .flexEvenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* HEADER */
+
+.blocHeader {
+  margin: 0px;
+}
+
+.blocTextHeader {
+  margin: 0px;
+}
+
+.logoHeader {
+  object-fit: contain;
+  padding: 20px;
+}
+
+.blocText {
+  height: 150px;
+  width: 165px;
+  border-top: 2px solid white;
+  }
+
+.textHeader {
+  border-color: #0065fc;
+
+}
+
+a:hover {
+  color:#0065fc;
+  
+}
+
+.blocText:hover > .textHeader {
+  border-color: #0065fc;
+
+}
+
+.blocText:hover{
+  border-color: #0065fc;
+
+}
+
+a { color: inherit; } 
+
+
+.h1 {
+  background-color: #0065fc;
+  margin: 20px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.h2 {
+  margin: 20px;
+  margin-top: 50px;    
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px;  
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 20px;
+}
+
+/* RECHERCHE */
+
+#recherche { 
+  display: flex;
+  margin: 20px;
+}
+
+.r1 {  /* Bloc logo */
+  
+  background-color: #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+  width: 50px;
+  height: 50px;
+}
+
+/* Bloc recherche */
+.r2 {
+  background-color: white;
+  width: 250px;
+  height: 50px;
+  outline: 1px solid;
+  outline-offset: -1px;
+  outline-color: #f2f2f2;
+}
+
+.txtr2 {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/* Bloc Bouton Rechercher */
+.r3 {
+  background-color: #0065fc;
+  border-radius: 0px 15px 15px 0px;
+  width: 130px;
+  height: 50px;
+}
+
+.txtr3 
+{
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/* FILTRE */
+
+.filtre { /* Bloc Parent */
+  display: flex;
+  align-items: center;
+}
+
+.margFiltre {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.margFiltreTitre {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.filtreTextIcons {
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.filtreIcons {
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: #0065fc;
+  background-color: #deebff;
+  margin-left: -2px;
+} 
+
+.filtreTextIcons:hover {
+  background-color:#deebff;
+}
+
+.filtreTextIcons:hover > .filtreText {
+  color: #0065fc;
+}
+
+.filtreTextIcons:hover > .filtreIcons {
+  color: white;
+  background-color: #0065fc;
+}
+
+.filtreText {
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 25px 25px 0;
+} 
+
+/* INFORMATIONS */
+
+.info { /* Bloc parent */
+  display: flex;
+  gap: 1%;
+  background-color: white;
+  margin: 4%;
+}
+
+.loginfo {  /* Bloc Info */
+  border: 2px solid;
+  border-color: #d9d9d9;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+}
+
+  /* HEBERGEMENTS */
+
+.borderRadius {
+  border-radius: 15px;
+}
+
+.conteneurHeb { /* Parent */
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.blocHeb {
+  width: 65%;
+  height: 700px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  row-gap: 7%;
+}
+
+.blocHebSmall {
+  width: 27%;
+  height: 220px;
+  background-color: white;
+}
+
+.textHeb {
+  width: 100%;
+  margin-left: 5%;
+  
+}
+
+.photoHeb {
+  height: 60%;
+  width: 95%;
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+}
+
+.textPhotoHeb {
+  height: 35%;
+  width: 90%;
+}
+
+.blocPop {
+  width: 25%;
+  height: 700px;
+  background-color: #f2f2f2;
+}
+
+.blocPopSmall {
+  width: 80%;
+  height: 24%;
+  background-color: white;
+}
+
+.textPop {
+  width: 90%;
+  margin: 3%;
+  
+}
+
+.photoPop {
+  height: 95%;
+  width: 40%;
+  object-fit: cover;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.textPhotoPop {
+  height: 100%;
+  width: 55%;
+}
+
+/* ACTIVITES */
+
+.conteneurActivite {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+
+.blocAct {
+  background-color: white;
+  width: 22%;
+  height: 500px;
+}
+
+.blocActSmall {
+  background-color: white;
+  width: 100%;
+  height: 240px;
+}
+
+.activiteColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22%;
+  height: 500px;
+}
+
+.photoAct {
+  width: 100%;
+  height: 420px;
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+}
+
+.photoActSmall {
+  width: 100%;
+  height: 180px;
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+}
+
+.boxShadow {
+box-shadow: 0 0 15px #e1e1e1;
+}
+
+.textAct {
+  margin-left: 5%;
+}
+
+.titreAct {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+/* FOOTER  */
+.background { 
+  background: #f2f2f2;
+  display: flex;
+  width: 100%;
+  height: 270px;
+  position: absolute;
+  right: 0; left: 0;
+  margin-top: 50px;
+}
+
+.footerBold {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footRegular {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.footerText {
+  padding-top: 40px;
+  margin-left: 50px;
+  width: 1150px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ICONS */
+
+.fa-info {  /* Icone "Info" */
+  color: #0065fc;
+}
+
+.fa-map-marker-alt { /* Icone "Recherche" */
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+svg { /* Icone "Les plus populaires */
+  height: 25px;
+  width: 25px;
+}
+
+.fa-star { /* Icone "Hébergements" */
+  margin-top: 5px;
+  color: #0065fc;
+}
+
+.fa-map-marker-alt {
+  margin-top: 25px;
+}
+
+#site-search{
+  width: 250px;
+  height: 50px;
+  outline: 1px solid;
+  outline-offset: -1px;
+  outline-color: #f2f2f2;
+  padding-left: 30px;
+}
