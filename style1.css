@@ -437,3 +437,82 @@ svg { /* Icone "Les plus populaires */
   outline-color: #f2f2f2;
   padding-left: 30px;
 }
+
+/* RESPONSIVE */
+
+@media all and (max-device-width: 480px)
+{  /* HEADER */
+  
+
+  
+  .blocHeader {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blocTextHeader {
+    width: 100%;
+  }
+
+  .blocText {
+    width: 50%;
+  }
+
+  .textHeader {
+    font-size: 35px;
+  }
+
+   /* HEBERGEMENTS */
+
+  .conteneurHeb {
+  display: flex;
+  flex-direction: column-reverse;
+  }
+
+  .blocPop {
+    width: 100%;
+    border-radius: 0%;
+  }
+
+  .textPop {
+    font-size: 40px;
+  }
+
+  svg { 
+    height: 50px;
+    width: 50px;
+    }
+
+  .blocHeb {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+  }
+
+  .blocHebSmall {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .textHeb {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+
+  .textInfo {
+    font-size: 25px;
+  }
+}
+
